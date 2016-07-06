@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="EShops Automation" verbose="1">
+	<test name="Alza">
+		<classes>
+			<class name="scripts.Alza" />
+		</classes>
+	</test>
+	<test name="CZC">
+		<classes>
+			<class name="scripts.CZC" />
+		</classes>
+	</test>
+	<test name="Tsbohemia">
+		<classes>
+			<class name="scripts.Tsbohemia" />
+		</classes>
+	</test>
+	
+</suite>

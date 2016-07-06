@@ -41,7 +41,7 @@ public class Helper {
 	public int count;
 	public String columnName[];
 	public static final String USERNAME = "martinjech1";
-	public static final String AUTOMATE_KEY = "7mN67BaxJYpUpiDHU9Dp";
+	public static final String AUTOMATE_KEY = "***************";
 	public static final String URL = "http://" + USERNAME + ":" + AUTOMATE_KEY + "@hub.browserstack.com/wd/hub";
 
 	public static void deleteFile(String filePath){
@@ -74,9 +74,9 @@ public class Helper {
 		caps.setCapability("resolution", "1024x768");
 		driver = new RemoteWebDriver(new URL(URL), caps);
 		Class.forName("com.mysql.jdbc.Driver");      
-		dbUrl = "jdbc:mysql://eu-cdbr-azure-west-d.cloudapp.net/";     
-		username = "b796079dbc85a6";       
-		password = "b232490b";      
+		dbUrl = "jdbc:mysql://***************/";     
+		username = "*********";       
+		password = "***********";      
 		con = DriverManager.getConnection(dbUrl,username,password);    
 		stmt = con.createStatement();
 		System.out.println("Hello");
